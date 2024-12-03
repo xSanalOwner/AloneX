@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID" "25396035"))
+API_HASH = getenv("API_HASH" "82c1e5f73a4a055d6cb197d38647e18a")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN" "7186753157:AAHL6PMNNoWupCgtVWj6DEFKjctueGxuhW4")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ForzaMusicBot:ForzaMusicBot@forzamusicbot.z9u2c.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nezrinlogo")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/nezrinsupp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ForzaBoots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/SohbetFc")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AgGDg0MAIBxXYaPQadNLoqsFMwBvtkXEey1RfslBEd1jap1VN1UBh0XwxjRYev4G-FvzYt4Kiyev77QmxbX-zx3l6x3N2pI_zwZHCjb9MWh_Ens-4CbQpNNXbFlYs2JP5ALBeBY_IkYPN4SLZ9siH-L35_ZdlHlqpPbMSEHsspWwGHFkMxUcL9J04QR6ncp-opm5EDC1p5aSq-BljA1KiVRWmFburTlHkSh2cdcGQYqzBGPlAamRfpnmfLFzAFKi3tffv0vCPo3g5FPMMgKg9H49xKnAVhkvPJeldo_ia2k33Bp2KzJzppH8ny-57ic3TLSA3SBjOg6ewV1vELwjxc7xooPYLgAAAAGvt_GWAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
